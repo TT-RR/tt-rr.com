@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex" />
+    <title>Ryusei's Portfolio</title>
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <!-- ここからヘッダー -->
+    <header>
+        <a herf="index.html">Ryusei's works</a>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#works">Works</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- ここまでヘッダー -->
+
+    <!-- ここからメイン -->
+    <div class="main-visual">
+        <div>
+            <h1>Ryusei's portfolio site</h1>
+			<p>web engineer</p>
+        </div>
+    </div>
+    <main>
+        <!-- About -->
+        <section id="about">
+            <h2>About</h2>
+            <div id="about-name">
+                <h3>田中琉聖</h3>
+                <p>tanaka ryusei</p>
+            </div>
+            <div id="about-detail">
+                <p>
+                    名古屋工学院専門学校情報システム科在学中。<br>
+                    大学1年の時からWeb開発を学び、インターン生として開発会社で経験を積む。PHPを使ったWebアプリケーションの開発経験もあり。<br>
+                    趣味は筋トレ、読書、脱出ゲーム等。
+                </p>
+                <img src="img/profile.png">
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skill-list">
+                <div class="skill-item">
+                    <h3>HTML / CSS</h3>
+                    <p>1年次に授業で習い、自己紹介サイトを個人開発しました。
+                    さらにハッカソンなどのイベントでも使用しています。</p>
+                </div>
+                <div class="skill-item">
+                    <h3>JavaScript</h3>
+                    <p>フロントサイドでは、動きのある動作を作るために使用しました。</p>
+                </div>
+                <div class="skill-item">
+                    <h3>Go</h3>
+                    <p>あるコンテストで日程調整をするサービスのバックエンドとして使用しました。</p>
+                </div>
+                <div class="skill-item">
+                    <h3>MySQL,PostgreSQL,SQlite</h3>
+                    <p>簡単なSQL文が書けます。絶賛Dockerを用いた開発の勉強中です。</p>
+                </div>
+                <div class="skill-item">
+                    <h3>Kotlin</h3>
+                    <p> TechTrainのRailwayで勉強しています。これから本格的に勉強を始めていく予定です</p>
+                </div>
+                <div class="skill-item">
+                    <h3>Flutter</h3>
+                    <p>個人開発でアプリをいくつか開発しています。勉強会を開催していたり、サークルのプロジェクトでFlutterを用いたアプリも開発しています。</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Works -->
+        <section id="works">
+            <h2>Works</h2>
+            <div class="work-item">
+                <img src="./img/works1.png">
+                <div class="work-description">
+                    <h3>ポートフォリオサイト</h3>
+                    <p>現在表示しているサイトです。 学習サイトを参考にしながら、制作しました。</p>
+                </div>
+            </div>
+            <div class="work-item">
+                <img src="./img/magi-sche.png">
+                <div class="work-description">
+                    <h3>マジスケ</h3>
+                    <p>GoogleCalenderAPIと連携することにより、
+                    カレンダーと往復することのない革新的な日程調整サービスです。</p>
+                    <p>技育CAMPアドバンス2023 Vol.1 大賞🥇</p>
+                    <p><a class="work-link" href="https://magi-sche.vercel.app/" target="_blank">サービスはこちら！</a></p>
+                    <p><a class="work-link" href="https://www.canva.com/design/DAFr_wSVlOg/1luXAoRHRpDKiuH_b7tnyw/edit?utm_content=DAFr_wSVlOg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank">スライドはこちら！</a></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact">
+            <h2>Contact</h2>
+            <form action="https://docs.google.com/forms/u/3/d/e/1FAIpQLSfDcXc8rSSRVcQVdzLEHtccNF7i5W4cmDDjEHOExq_H7K6x1g/formResponse" target="_self" method="POST" id="mG61Hd">
+                <dl>
+                <dt>お名前</dt>
+                <dd><input name="entry.698850906" type="text" required="required" id="textfield" class="g_form"></dd>
+                <dt>メールアドレス</dt>
+                <dd><input name="entry.1861746415" type="text" class="g_form" id="textfield3"></dd>
+                <dt>問い合わせ内容</dt>
+                <dd><textarea name="entry.455033369" required class="g_form_text" id="entry.455033369"></textarea></dd>
+                </dl>
+                <div class="button"><input type="submit" class="btbt"></div>
+            </form>    
+        </section>
+
+        <a class="pagetop" href="#">
+            <div class="pagetop__arrow">
+                <img class="top" src="img/top.png">
+            </div>
+        </a>
+    </main>
+    <!-- ここまでメイン -->
+
+    <!-- ここからフッター -->
+    <footer>
+        <p>&copy; 2023 tech hanako</p>
+    </footer>
+</body>
+</html>
