@@ -62,7 +62,7 @@ section {
 /*----------------- ヘッダー関連 -----------------------*/
 header {
     max-width: 100%;
-    background-color: #f5f5f5;
+    background-color: #f2f2f2;
     display: flex;
     justify-content: space-between;
     /* flexboxアイテムの最初（左）を起点、最後を終点とし、残りの要素を均等に配置できる指定方法 */
@@ -76,6 +76,7 @@ header {
 
 header ul {
     display: flex;
+
 }
 
 header li {
@@ -159,6 +160,38 @@ header li {
     margin-bottom: 20px;
     padding: 30px;
     box-sizing: border-box;
+}
+
+.skill-item h3 {
+    text-align: center;
+}
+
+.skill-item ul {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+/* プログラミング言語アイコンのサイズ調整 */
+.si-html,
+.si-css,
+.si-go,
+.si-mysql,
+.si-sqlite {
+    width: 80px;
+    height: 80px;
+}
+
+.si-postgres,
+.si-js,
+.si-flutter {
+    width: 70px;
+    height: 70px;
+}
+
+.si-kotlin {
+    width: 60px;
+    height: 60px;
 }
 
 /* ------ Works ------ */
@@ -280,6 +313,11 @@ footer {
         flex-direction: column;
         height: auto;
         padding: 10px 4%;
+    }
+
+    header ul {
+        margin-top: 10px;
+        font-size: 13px;
     }
 
     /* ------ About ------ */
